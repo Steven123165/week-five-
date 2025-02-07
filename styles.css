@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(6, 135, 161);
+    color: bisque;
+}
+
+@media screen and (max-width:800px){
+    /*anytime the page is shown on a screen, with a width from 800px to 401px wide*/
+    body{
+        background-color: rgb(87, 5, 150);
+    }
+}
+@media screen and (max-width:400px){
+    /*anytime the page is shown on a screen, with a width from 0px to 400px wide*/
+    body{
+        background-color: rgba(250, 250, 0, 0.876);
+        color: black;
+    }
+}
